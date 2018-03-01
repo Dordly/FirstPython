@@ -69,10 +69,11 @@
 # print("\nA " + too_expensive.title() + "is too expensive for me")
 
 
-# 组织列表
-# 使用方法sort()来对列表进行----永久性排序----
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-print(cars)
+# # 组织列表
+# # 使用方法sort()来对列表进行----永久性排序----
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# print(cars)
+
 # # sort()按字母顺序排序
 # cars.sort()
 # print(cars)
@@ -94,9 +95,68 @@ print(cars)
 # cars.reverse()
 # print(cars)
 
-# 确定列表的长度
-len(cars)
-print(len(cars))
+# # 确定列表的长度
+# print(len(cars))
+
+# # 循环输出
+# magicians = ['alice', 'david', 'carolina']
+# for magician in magicians:
+# 	print("I like pepperoni "+ magician)
+
+# # 使用range()创建数字列表
+# numbers = list(range(1,6))
+# print(numbers)
+
+# # 打印1-10以内的偶数
+# even_numbers = list(range(2,11,2))
+# print(even_numbers)
+
+# # 将前10个整数的平方加入到一个列表中
+# squares = []
+# for value in range(1,11):
+# 	squre = value ** 2
+# 	squares.append(squre)
+
+# 	print(squares)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
