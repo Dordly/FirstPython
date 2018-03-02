@@ -46,27 +46,59 @@
 
 
 
-# 使用用户输入来填充字典
-responses = {}
-# 设置一个标志 指出调查是否继续 
-polling_active = True
-while polling_active:
-	# 提示输入被调查者的名字和回答
-	name = input("\nWhat is your name? ")
-	response = input("Which mountain would you like to climb someday? ")
-	# 将答卷存储在字典中
-	responses[name] = response
-	# 看看是否还有人要参与调查
-	repeat = input("Would you like to let another person respond? (yes/ no) ")
-	if repeat == 'no':
-		polling_active = False
-		# 调查结束，显示结果
-		print("\n--- Poll Results ---")
-		for name, response in responses.items():
-			print(name + " would like to climb " + response + ".")
+# # 使用用户输入来填充字典
+# responses = {}
+# # 设置一个标志 指出调查是否继续 
+# polling_active = True
+# while polling_active:
+# 	# 提示输入被调查者的名字和回答
+# 	name = input("\nWhat is your name? ")
+# 	response = input("Which mountain would you like to climb someday? ")
+# 	# 将答卷存储在字典中
+# 	responses[name] = response
+# 	# 看看是否还有人要参与调查
+# 	repeat = input("Would you like to let another person respond? (yes/ no) ")
+# 	if repeat == 'no':
+# 		polling_active = False
+# 		# 调查结束，显示结果
+# 		print("\n--- Poll Results ---")
+# 		for name, response in responses.items():
+# 			print(name + " would like to climb " + response + ".")
 
 
 
+# 将你的 QQ 头像（或者微博头像）右上角加上红色的数字，类似于微信未读信息数量那种提示效果。 类似于图中效果
+# from PIL import Image, ImageDraw, ImageFont
+
+# def add_num(img):
+#     draw = ImageDraw.Draw(img)
+#     myfont = ImageFont.truetype('C:/windows/fonts/Arial.ttf', size=40)
+#     fillcolor = "#ff0000"
+#     width, height = img.size
+#     draw.text((width-40, 0), '99', font=myfont, fill=fillcolor)
+#     img.save('result.jpg','jpeg')
+
+#     return 0
+# if __name__ == '__main__':
+#     image = Image.open('image.jpg')
+#     add_num(image)
+
+
+# #  实参和形参 ---------- 位置实参
+# def describe_pet(animal_type, pet_name):
+# 	print("\nI have a " + animal_type + ".")
+# 	print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+
+# describe_pet('hamster', 'harry')
+# describe_pet('dog', 'willie')
+
+
+# 关键字实参
+def describe_pet(animal_type, pet_name):
+	print("\nI have a " + animal_type + ".")
+	print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+
+describe_pet(animal_type = 'hmster', pet_name = 'harry')
 
 
 

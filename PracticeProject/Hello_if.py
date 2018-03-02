@@ -90,6 +90,22 @@
 # 	print("\tLocation: " + location.title())
 
 
+# ---------------函数---------------
+# 定义函数
+# def greet_user():
+# 	print("still!")
+
+# greet_user()
+
+
+# # 向函数传递信息
+# def greet_user(username):
+# 	print("Hello, " + username.title() + "!")
+
+# greet_user('Dordly')
+
+
+
 
 
 
