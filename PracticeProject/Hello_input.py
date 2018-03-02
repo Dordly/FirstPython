@@ -110,14 +110,16 @@
 # print(musican)
 
 
-# 让实参变成可选的
-def get_formatted_name(first_name, middle_name, last_name):
-	full_name = first_name + ' ' + middle_name + ' ' + last_name
-	return full_name.title()
+# # 让实参变成可选的
+# def get_formatted_name(first_name, middle_name, last_name):
+# 	full_name = first_name + ' ' + middle_name + ' ' + last_name
+# 	return full_name.title()
+
+# musican = get_formatted_name('john', 'lee', 'hooker')
+# print(musican)
 
 
-musican = get_formatted_name('john', 'lee', 'hooker')
-print(musican)
+
 
 
 
