@@ -93,12 +93,31 @@
 # describe_pet('dog', 'willie')
 
 
-# 关键字实参
-def describe_pet(animal_type, pet_name):
-	print("\nI have a " + animal_type + ".")
-	print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+# # 关键字实参
+# def describe_pet(animal_type, pet_name):
+# 	print("\nI have a " + animal_type + ".")
+# 	print("My " + animal_type + "'s name is " + pet_name.title() + ".")
 
-describe_pet(animal_type = 'hmster', pet_name = 'harry')
+# describe_pet(animal_type = 'hmster', pet_name = 'harry')
+
+
+# # 返回简单值
+# def get_formatted_name(first_name,last_name):
+# 	full_name = first_name + ' ' + last_name
+# 	return full_name.title()
+
+# musican = get_formatted_name('jimi', 'hendrix')
+# print(musican)
+
+
+# 让实参变成可选的
+def get_formatted_name(first_name, middle_name, last_name):
+	full_name = first_name + ' ' + middle_name + ' ' + last_name
+	return full_name.title()
+
+
+musican = get_formatted_name('john', 'lee', 'hooker')
+print(musican)
 
 
 
